@@ -1,0 +1,286 @@
+
+/*header*/
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.navbar-expand-lg bg-body-tertiary{
+    display: none;
+
+}
+
+
+.nav{
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; 
+    width: 100%;
+    list-style-type: none;
+    display: block;
+}
+
+.header-index{
+    background-color: orange;
+}
+
+.main-index{
+    background-color: #ffa500ab;
+}
+
+/*body*/
+
+.logo{
+    width: 250px;
+    
+    
+}
+.img-body{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.img-navv{
+    width: 100%;
+   margin-top: 20px;
+}
+
+.img-nav{
+    width: 500px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+
+.footer{
+    font-family:'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+/*menu*/
+.caract-body{
+    font-family:'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black
+    
+    
+}
+
+.cabaña{
+      font-family:'Nunito', sans-serif;
+
+}
+
+/*cabaña*/
+.foto{
+    width: 550px;
+    padding: 5px 5px;
+}
+
+.logo-cabana{
+    width: 150px;
+
+}
+
+ 
+ .main-cabana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;;
+    color: black;
+    font-size: 17px;
+    background-color: #ffa500ab;
+    margin-top: 5px;
+    
+    
+ }
+
+ .main-cabana section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .main-cabana section ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .img-cabana{
+    display: flex;
+    padding: 5px;
+ }
+
+ .nav-cabana{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    
+ }
+
+
+/*tarifa*/
+.tarifa{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa500ab;
+    font-size: 20px;
+   
+ }
+
+ .tarifa-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    
+ }
+
+
+/*contacto*/
+.img-contacto{
+    background-image: url(../images/headerr.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: inherit;
+    margin-top: 20px;
+}
+
+.contacto{
+    font-family:'Nunito', sans-serif; 
+    background-color: #ffa500ab;
+    font-size: 20px;
+}
+.nav-contacto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+   background-color: orange;
+}
+
+/*ubicacion*/
+.ubicacion{
+    font-family:'Nunito', sans-serif; 
+    background-color: #ffa500ab;
+    font-size: 20px;
+}
+.nav-ubicacion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+}
+
+/*footer*/
+.footer{
+    background-color: orange;
+}
+
+/*media queries de desktop a mobile*/
+
+/*desktop*/
+@media (max-width: 1020px) and (min-width: 768px){
+    
+    .img-cabana{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .foto{
+        height: 500px;
+        width: 800px;
+    }
+    .main-cabana{
+        font-size: 22px;
+    }
+    .navbar-expand-lg bg-body-tertiary{
+        display: none;
+    }
+    .nav{
+        display: block;
+    }
+}
+
+/*tablet*/
+@media (max-width: 769px) and (min-width: 420px){
+.img-cabana{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.navbar-expand-lg bg-body-tertiary{
+    display: none;
+}
+
+.caract-index{
+    flex-wrap: wrap ;
+    
+}
+.foto{
+    padding: 5px 5px;
+    
+}
+.img-contacto{
+       height: 300px;
+}
+.nav{
+    display: block;
+}
+
+}
+    
+/*mobile*/
+@media (max-width: 421px) and (min-width: 320px) {
+    .img-cabana{
+        flex-wrap: wrap;
+        
+    }
+
+    .foto{
+        width: 300px;
+       justify-content: center;
+       
+    }
+    .caract-index{
+        flex-wrap: wrap;
+    }
+    .navbar-expand-lg bg-body-tertiary{
+        display: block;
+    }
+
+    .nav{
+        display: none;
+    }
+}
+
+
+
+
