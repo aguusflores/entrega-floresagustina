@@ -183,6 +183,12 @@
     font-family:'Nunito', sans-serif; 
     background-color: #ffa500ab;
     font-size: 20px;
+    
+}
+.contacto-planilla{
+    font-family:'Nunito', sans-serif; 
+    background-color: #ffa500ab;
+    font-size: 20px;
 }
 .nav-contacto{
     display: flex;
@@ -198,6 +204,7 @@
     font-family:'Nunito', sans-serif; 
     background-color: #ffa500ab;
     font-size: 20px;
+    justify-content: center;
 }
 .nav-ubicacion{
     display: flex;
