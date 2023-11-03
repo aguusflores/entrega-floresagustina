@@ -9,9 +9,9 @@
 
 }
 
-.navbar-expand-lg bg-body-tertiary{
-    display: none;
 
+.img-banner{
+    background-image: url(../images/banner.jpg);
 }
 
 
@@ -24,11 +24,12 @@
     justify-content: space-around; 
     width: 100%;
     list-style-type: none;
-    display: block;
+    
 }
 
 .header-index{
-    background-color: orange;
+    background-image: url(../images/banner.jpg);
+  
 }
 
 .main-index{
@@ -135,20 +136,23 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    background-color: orange;
+    background-image: url(../images/banner.jpg);
     
  }
 
 
-/*tarifa*/
+/*reserva*/
 .tarifa{
     font-family: 'Nunito', sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #ffa500ab;
     font-size: 20px;
+   justify-content: center;
    
+ }
+
+ .card-body{
+    background-color: #ffa500d6;
  }
 
  .tarifa-nav{
@@ -157,7 +161,11 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    background-color: orange;
+    background-image: url(../images/banner.jpg);
+    
+ }
+ .card{
+  display: inline-flex;
     
  }
 
@@ -182,7 +190,7 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-   background-color: orange;
+   background-image: url(../images/banner.jpg);
 }
 
 /*ubicacion*/
@@ -197,12 +205,15 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    background-color: orange;
+    background-image: url(../images/banner.jpg);
 }
 
 /*footer*/
 .footer{
     background-color: orange;
+}
+.img-footer{
+    height: 70px;
 }
 
 /*media queries de desktop a mobile*/
@@ -221,12 +232,7 @@
     .main-cabana{
         font-size: 22px;
     }
-    .navbar-expand-lg bg-body-tertiary{
-        display: none;
-    }
-    .nav{
-        display: block;
-    }
+   
 }
 
 /*tablet*/
@@ -251,14 +257,11 @@
 .img-contacto{
        height: 300px;
 }
-.nav{
-    display: block;
-}
 
 }
     
 /*mobile*/
-@media (max-width: 421px) and (min-width: 320px) {
+@media (max-width: 421px) {
     .img-cabana{
         flex-wrap: wrap;
         
@@ -272,13 +275,11 @@
     .caract-index{
         flex-wrap: wrap;
     }
-    .navbar-expand-lg bg-body-tertiary{
+    .navbar-expand-lg {
         display: block;
     }
 
-    .nav{
-        display: none;
-    }
+    
 }
 
 
