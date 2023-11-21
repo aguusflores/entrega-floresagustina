@@ -1,0 +1,13 @@
+//reset
+@import "./reset/reset";
+@import "./reset/vars";
+@import "./reset/mixin";
+
+
+//layout
+@import "./header";
+@import "./footer";
+@import "./body";
+
+//media query
+@import "./reset/mq";

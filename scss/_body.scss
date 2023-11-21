@@ -1,0 +1,162 @@
+/*index*/
+
+.logo{
+    width: 250px;
+    
+    
+}
+
+
+.img{
+    &-body{
+    @include flex-center;
+    }
+
+    &-navv{
+    width: $width-full;
+    margin-top: 20px;
+    }
+    &-nav{
+    width: 500px;
+    padding: 10px;
+    overflow: hidden;
+    }
+}
+
+
+/*menu*/
+.caract-body{
+    font-family: $font-body;
+    @include flex-center;
+    color: black
+    
+    
+}
+
+.cabaña{
+      font-family: $font-body;
+
+}
+
+/*cabaña*/
+.foto{
+    width: 550px;
+    padding: 5px 5px;
+}
+
+.logo-cabana{
+    width: 150px;
+
+}
+
+ 
+.main-cabana{
+    @include flex-column-aling;
+    font-family: $font-body;
+    color: black;
+    font-size: map-get (fontsize-mood , siete);
+    background-color: $under-color;
+    margin-top: 5px;
+
+    section{
+        @include flex-column-aling;  }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     } 
+ }
+ 
+ 
+ .img-cabana{
+    padding: 5px;
+    width: 90%;
+    
+ }
+
+ .nav-cabana{
+    @include flex-center;
+    width: $width-full;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/banner.jpg);
+    
+ }
+
+
+/*reserva*/
+.tarifa{
+    font-family: $font-body;
+    display: flex;
+    background-color: $under-color;
+    font-size: map-get ($fontsize-mood , veinte);
+   justify-content: center;
+
+   &__nav{
+    
+    justify-content: center;
+    width: $width-full;
+    @include flex-column-aling;
+    background-image: url(../images/banner.jpg); }
+   
+ }
+
+
+ .card{
+  display: inline-flex;
+  background-color: #ffa500d6; }
+    
+ 
+
+
+/*contacto*/
+.img-contacto{
+    background-image: url(../images/headerr.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: inherit;
+    margin-top: 20px;
+}
+
+.contacto{
+    font-family: $font-body;
+    font-size: 18px;
+    background-color: $under-color;
+    font-size: map-get ($fontsize-mood , veinte);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+
+    &__planilla{
+        font-family:'Nunito', sans-serif; 
+        background-color: $under-color;
+        font-size: 20px;
+    }
+    
+}
+
+.nav-contacto{
+    @include flex-column-aling;
+    justify-content: center;
+    width: $width-full; 
+    background-image: url(../images/banner.jpg);
+}
+
+/*ubicacion*/
+.ubicacion{
+    font-family: $font-body;
+    background-color: $under-color;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.nav-ubicacion{
+    @include flex-column-aling;
+    justify-content: center;
+    width: $width-full;
+    background-image: url(../images/banner.jpg);
+}

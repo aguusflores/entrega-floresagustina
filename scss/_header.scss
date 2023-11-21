@@ -1,0 +1,35 @@
+/*header*/
+.header{
+    display: flex;
+    justify-content: center;
+    width: $width-full;
+    flex-direction: column;
+    align-items: center;
+
+    &index{
+        background-image: url(../images/banner.jpg);
+    }
+
+}
+
+
+.img-banner{
+    background-image: url(../images/banner.jpg);
+    width: $width-full;
+}
+
+.nav{
+    font-family: $font-nav;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; 
+    width: $width-full;
+    list-style-type: none;
+    background-image: url(../images/banner.jpg);
+}
+
+.main-index{
+    background-color: #ffa500ab;
+}

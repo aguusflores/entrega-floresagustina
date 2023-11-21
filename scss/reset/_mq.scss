@@ -1,0 +1,86 @@
+/*media queries de desktop a mobile*/
+
+/*desktop*/
+@media (max-width: 1020px) and (min-width: 768px){
+    
+    .img-cabana{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .foto{
+        height: 500px;
+        width: 800px;
+    }
+    .main-cabana{
+        font-size: 22px;
+    }
+   
+}
+
+/*tablet*/
+@media (max-width: 769px) and (min-width: 420px){
+.img{
+    &cabana{
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &contacto{
+        height: 300px; }
+ }
+
+}
+
+
+.foto{
+    width: 90%;
+}
+
+.navbar-expand-lg {
+    display: block;
+}
+
+.caract-index{
+    flex-wrap: wrap ;
+    
+}
+.foto{
+    padding: 5px 5px;
+    
+}
+
+}
+    
+/*mobile*/
+@media (max-width: 421px) {
+    .img-cabana{
+        flex-wrap: wrap;
+        
+        
+
+    }
+    .img-nav{
+        width: 90%;
+        align-items: center;
+    }
+
+    .foto{
+        width: 90%;
+       justify-content: center;
+       
+    }
+    .caract-index{
+        flex-wrap: wrap;
+    }
+    .navbar-expand-lg {
+        display: block;
+    }
+    /*tarifa*/
+    .tarifa{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
